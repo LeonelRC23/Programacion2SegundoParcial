@@ -1,0 +1,91 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+
+.page-header {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header h1 {
+  color: #333;
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.cart-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid white;
+}
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.item-details h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.item-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.cart-summary {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px dashed #bebebe;
+  text-align: right;
+}
+
+.cart-summary h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.total-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.checkout-btn {
+  background-color: #28a745; /* Verde para 'Pagar' */
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Ocupa todo el ancho del summary */
+  margin-top: 1.5rem; /* Espacio sobre el botón */
+  transition: background-color 0.2s ease;
+}

@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', function (event) {
   const usersLocalStorage = localStorage.getItem(key);
   const users = JSON.parse(usersLocalStorage);
 
-  for (let i = 0; i < users.length; i++) {
+  for (let i = 0; i < users?.length; i++) {
     if (users[i].username == userLogin && users[i].password == passLogin) {
       userFound = true;
       break;

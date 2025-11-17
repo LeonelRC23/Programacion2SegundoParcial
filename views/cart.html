@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style-cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Carrito</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="back-link" href="./home.html"
+        ><i class="fa-solid fa-left-long"></i
+      ></a>
+      <h1>Carrito de Compras</h1>
+      <div style="flex: 1"></div>
+    </header>
+    <main class="cart-container">
+      <div id="cart-items-list"></div>
+      <div class="cart-summary">
+        <h2>Total a Pagar</h2>
+        <div id="cart-total" class="total-price">$0.00</div>
+        <button class="checkout-btn">Proceder al Pago</button>
+      </div>
+    </main>
+  </body>
+  <script src="../js/cart.js"></script>
+</html>
