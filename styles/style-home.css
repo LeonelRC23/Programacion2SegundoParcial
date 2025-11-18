@@ -88,6 +88,8 @@ header {
   display: flex;
   padding: 1rem;
   background-color: antiquewhite;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dropdown-container {
@@ -102,6 +104,35 @@ header {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#menu-btn:hover {
+  background-color: #ffb6c1;
+}
+
+#logout-btn {
+  background-color: #dc3545; /* Rojo para indicar salida */
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Espacio entre icono y texto */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logout-btn:hover {
+  background-color: #c82333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .dropdown-content {
