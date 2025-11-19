@@ -32,6 +32,17 @@
   padding-inline: 15rem;
 }
 
+@media (max-width: 1150px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    padding-inline: 2rem;
+  }
+
+  .product-card img {
+    height: 300px;
+  }
+}
+
 .product-card {
   background-color: #ffffff;
   border-radius: 8px;
@@ -39,6 +50,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: transform 0.2s ease;
 }
 
 .product-card img {
